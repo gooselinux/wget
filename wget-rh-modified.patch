@@ -1,0 +1,12 @@
+diff -urN wget-1.12/configure wget-1.12.patched/configure
+--- wget-1.12/configure	2009-11-17 12:36:23.000000000 +0100
++++ wget-1.12.patched/configure	2009-09-22 18:40:13.000000000 +0200
+@@ -597,7 +597,7 @@
+ PACKAGE_NAME='wget'
+ PACKAGE_TARNAME='wget'
+ PACKAGE_VERSION='1.12'
+-PACKAGE_STRING='wget 1.12'
++PACKAGE_STRING='wget 1.12 (Red Hat modified)'
+ PACKAGE_BUGREPORT='bug-wget@gnu.org'
+ 
+ # Factoring default headers for most tests.
